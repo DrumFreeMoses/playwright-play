@@ -1,0 +1,6 @@
+node_modules
+server/reports
+.vscode
+.idea
+.DS_Store
+coverage

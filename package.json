@@ -1,0 +1,27 @@
+{
+  "name": "mosight",
+  "version": "0.1.0",
+  "description": "MoSight — Playwright demo app for website quality assessment",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "serve": "node server/index.js",
+    "serve:ephemeral": "FALLBACK_TO_EPHEMERAL=1 node server/index.js",
+    "assess": "node server/assess.js",
+    "test": "npx playwright test",
+    "test:single": "npx playwright test tests/mosight.spec.ts",
+    "suggest-selectors": "node scripts/suggest-selectors.js",
+    "kill-port": "node scripts/kill-port.js",
+    "diagnose-port": "node scripts/diagnose-port.js"
+  },
+  "author": "Moses",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axe-core": "^4.6.3",
+    "playwright": "^1.35.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.0"
+  }
+}

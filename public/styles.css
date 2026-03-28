@@ -1,0 +1,7 @@
+body { font-family: system-ui, -apple-system, Arial, sans-serif; margin: 1rem; }
+main { max-width: 900px; margin: 0 auto; }
+label { display:block; margin-top:0.5rem; }
+.sliders label { display:block; margin:0.25rem 0; }
+#report { margin-top:1rem; }
+pre { background:#f7f7f7; padding:1rem; overflow:auto; }
+button { margin-top:0.5rem; padding:0.5rem 1rem; }

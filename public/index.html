@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MoSight — Website QA Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>MoSight</h1>
+    <form id="form">
+      <label for="url">Target URL</label>
+      <input id="url" name="url" type="url" placeholder="https://example.com" required />
+
+      <div class="sliders">
+        <label>Performance: <input id="weight-performance" name="performance" type="range" min="1" max="5" value="3" /></label>
+        <label>Accessibility: <input id="weight-accessibility" name="accessibility" type="range" min="1" max="5" value="3" /></label>
+        <label>SEO: <input id="weight-seo" name="seo" type="range" min="1" max="5" value="3" /></label>
+      </div>
+
+      <button id="run" type="submit">Run Assessment</button>
+    </form>
+
+    <section id="report" aria-live="polite"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
