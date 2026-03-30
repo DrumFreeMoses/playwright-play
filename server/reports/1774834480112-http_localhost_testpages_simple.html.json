@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "url": "http://localhost:59776/testpages/simple.html",
+    "timestamp": "2026-03-30T01:34:40.112Z",
+    "reportBase": "1774834480112-http_localhost_testpages_simple.html",
+    "jsonFile": "1774834480112-http_localhost_testpages_simple.html.json",
+    "summaryFile": "1774834480112-http_localhost_testpages_simple.html.summary.html",
+    "htmlFile": "1774834480112-http_localhost_testpages_simple.html.html"
+  },
+  "execSummary": {
+    "overallScore": 88,
+    "scores": {
+      "performance": 80,
+      "accessibility": 95,
+      "seo": 90
+    }
+  },
+  "details": {
+    "performance": {},
+    "imagesMissingAlt": 0,
+    "h1Count": 1,
+    "metaDescription": "Simple test page for MoSight demos",
+    "viewport": true,
+    "axeResults": {},
+    "brokenLinks": []
+  },
+  "recommendations": []
+}
